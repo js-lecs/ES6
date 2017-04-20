@@ -70,15 +70,15 @@
 /* 0 */
 /***/ (function(module, exports) {
 
-// removed by extract-text-webpack-plugin
+console.log("Hot reload works");
 
 /***/ }),
 /* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(0);
+console.log("Hello Webpack!!!");
 
-console.log("hello webpack!!!!");
 
 /***/ })
 /******/ ]);
